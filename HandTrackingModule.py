@@ -29,7 +29,7 @@ class handDetector():
 
         return img
     
-    def fingPosition(self,img,handNo=0,draw=True):
+    def findPosition(self,img,handNo=0,draw=True):
         
         lmList=[]
 
